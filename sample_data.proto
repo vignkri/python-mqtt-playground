@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package tutorial;
+
+message Data {
+    string id = 16;
+    int32  value = 17;
+}
